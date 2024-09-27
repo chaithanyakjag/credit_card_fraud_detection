@@ -40,6 +40,5 @@ The models were evaluated based on the following metrics:
 - Confusion Matrix: Visualized to understand the model’s performance on both classes.
 
 ## Conclusion
-After evaluating multiple models, the Gaussian Naïve Bayes with Min-Max scaling emerged as the best-performing model with the highest F1 score of 0.2516, indicating a good balance between false positives and false negatives. The inclusion of SMOTE significantly improved the model performance by addressing the class imbalance inherent in fraud detection datasets.
-
-The project highlights the potential applications of machine learning in fraud detection, with future expansions possible in areas like AI-powered fraud detection, financial transaction monitoring, and cybersecurity protocols.
+In conclusion, after evaluating various models for credit card fraud detection, Gaussian Naïve Bayes with min-max scaling stands out as the optimal choice. The F-1 score proves to be a more effective performance measure, accounting for both false negatives and false positives in this context. Utilizing the up-sampling technique with SMOTE yields significantly improved results. While combining supervised and unsupervised techniques provides an extension, it doesn't enhance the overall model performance. In the future there is a scope for expanding the machine learning algorithms to address broader applications 
+such as financial transactions, AI-powered fraud detection, and the implementation of robust cybersecurity protocols.
