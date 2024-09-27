@@ -19,18 +19,18 @@ The dataset used for this project is sourced from Kaggle, containing 1.8 million
    - Applied both without upsampling and with SMOTE upsampling.
    - After upsampling, the model performance improved significantly despite a slight drop in accuracy.
 2. K-Nearest Neighbors (KNN):
-  - Tuned using GridSearchCV to determine the optimal value of K.
-  - Implemented both Standard and Min-Max scaling for comparison.
+   - Tuned using GridSearchCV to determine the optimal value of K.
+   - Implemented both Standard and Min-Max scaling for comparison.
 3. Decision Trees:
-- Tuned using GridSearchCV to optimize hyperparameters like max_depth, min_samples_split, and max_leaf_nodes.
+   - Tuned using GridSearchCV to optimize hyperparameters like max_depth, min_samples_split, and max_leaf_nodes.
 4. Random Forest:
-  - A powerful ensemble method implemented for both scaled datasets.
+   - A powerful ensemble method implemented for both scaled datasets.
 5. Naïve Bayes (Gaussian Naïve Bayes):
-  - Performed the best overall, especially when combined with Min-Max scaling.
+   - Performed the best overall, especially when combined with Min-Max scaling.
 6. Support Vector Machines (SVM):
-  - Implemented for both scaling techniques with moderate results.
+   - Implemented for both scaling techniques with moderate results.
 7. Model Extension:
-  - Integrated PCA with Random Forest to explore if the combination of unsupervised and supervised learning could yield better results.
+   - Integrated PCA with Random Forest to explore if the combination of unsupervised and supervised learning could yield better results.
 
 ### Performance Metrics:
 The models were evaluated based on the following metrics:
